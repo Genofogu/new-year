@@ -1,10 +1,12 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import Moti2 from "../Elements/PNGs/jaan2.jpg"
+import moti1 from "../Elements/PNGs/jaan1.jpg"
 
 // Replace with your actual photo URLs or paths
 const PHOTOS = [
-  { url: 'https://i.pinimg.com/736x/91/9d/2d/919d2d09995133642398555e7f12e022.jpg', caption: 'My Love 💗' },
-  { url: 'https://i.pinimg.com/736x/8e/31/53/8e315357997a48d356891a27e0258102.jpg', caption: 'So Pretty ✨' },
+  { url: moti1, caption: 'My Moto 💗' },
+  { url: Moti2, caption: 'So Pretty ✨' },
 ];
 
 export default function Photos({ setPage, theme }) {
