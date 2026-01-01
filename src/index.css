@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+/* Add these for the custom vibe */
+@theme {
+  --color-hk-pink: #ffeaf2;
+  --color-hk-red: #ff0044;
+  --color-bp-pink: #f8a5c2;
+  --color-bp-black: #0a0a0a;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
