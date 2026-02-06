@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import jennieSmile from '../Elements/PNGs/Jennie_smile.png';
-import jisoo from '../Elements/PNGs/jisso.png';
+import jennieSmile from '../../Elements/PNGs/Jennie_smile.png';
+import jisoo from '../../Elements/PNGs/jisso.png';
 
 export default function GreetingBP({ setPage }) {
   return (

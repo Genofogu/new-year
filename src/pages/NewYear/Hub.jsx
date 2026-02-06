@@ -2,15 +2,15 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 // --- IMAGE IMPORTS (Linking to your PNG folder) ---
-import kittyMain from '../Elements/PNGs/hellokittymain.png';
-import bpLogo from '../Elements/PNGs/blackpink_logo.png';
-import jennie from '../Elements/PNGs/Jennie.png';
-import jisoo from '../Elements/PNGs/jisso.png';
-import rose from '../Elements/PNGs/rose.png';
-import lisa from '../Elements/PNGs/lisa_fingure.png';
-import kittyStrawberry from '../Elements/PNGs/hello_kitty_withStrawberry.png';
-import drawingIcon from '../Elements/PNGs/Drawing.png';
-import heartIcon from '../Elements/PNGs/blackkitty_heart.png';
+import kittyMain from '../../Elements/PNGs/hellokittymain.png';
+import bpLogo from '../../Elements/PNGs/blackpink_logo.png';
+import jennie from '../../Elements/PNGs/Jennie.png';
+import jisoo from '../../Elements/PNGs/jisso.png';
+import rose from '../../Elements/PNGs/rose.png';
+import lisa from '../../Elements/PNGs/lisa_fingure.png';
+import kittyStrawberry from '../../Elements/PNGs/hello_kitty_withStrawberry.png';
+import drawingIcon from '../../Elements/PNGs/Drawing.png';
+import heartIcon from '../../Elements/PNGs/blackkitty_heart.png';
 
 export default function Hub({ setPage, theme }) {
   

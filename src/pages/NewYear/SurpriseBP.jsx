@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import bpLogo from '../Elements/PNGs/blackpink_logo.png';
-import lisa from '../Elements/PNGs/lisa_fingure.png';
-
+import bpLogo from "../../Elements/PNGs/blackpink_logo.png";
+import lisa from "../../Elements/PNGs/lisa_fingure.png";
 export default function SurpriseBP({ setPage }) {
   const [isOpen, setIsOpen] = useState(false);
 

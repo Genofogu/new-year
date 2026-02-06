@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import Moti2 from "../Elements/PNGs/jaan2.jpg"
-import moti1 from "../Elements/PNGs/jaan1.jpg"
+import Moti2 from "../../Elements/PNGs/jaan2.jpg"
+import moti1 from "../../Elements/PNGs/jaan1.jpg"
 
 // Replace with your actual photo URLs or paths
 const PHOTOS = [

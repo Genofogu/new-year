@@ -2,17 +2,17 @@ import React, { useState, useRef, useEffect } from 'react';
 import { motion, useAnimationFrame, AnimatePresence } from 'framer-motion';
 
 // --- ASSET IMPORTS ---
-import defaultCat from '../Elements/PNGs/Node_cat.png';
-import hkPink from '../Elements/PNGs/hellokittymain.png';
-import hkRed from '../Elements/PNGs/hello_kitty_withStrawberry.png';
-import hkBlack from '../Elements/PNGs/blackkitty_main.webp';
-import roseImg from '../Elements/PNGs/rose.png';
-import lisaImg from '../Elements/PNGs/lisa_fingure.png';
-import jisooImg from '../Elements/PNGs/jisso.png';
-import jennieImg from '../Elements/PNGs/Jennie.png';
-import bpLogo from '../Elements/PNGs/blackpink_logo.png';
-import itemHeart from '../Elements/PNGs/blackkitty_heart.png';
-import itemDrawing from '../Elements/PNGs/Drawing.png';
+import defaultCat from '../../Elements/PNGs/Node_cat.png';
+import hkPink from '../../Elements/PNGs/hellokittymain.png';
+import hkRed from '../../Elements/PNGs/hello_kitty_withStrawberry.png';
+import hkBlack from '../../Elements/PNGs/blackkitty_main.webp';
+import roseImg from '../../Elements/PNGs/rose.png';
+import lisaImg from '../../Elements/PNGs/lisa_fingure.png';
+import jisooImg from '../../Elements/PNGs/jisso.png';
+import jennieImg from '../../Elements/PNGs/Jennie.png';
+import bpLogo from "../../Elements/PNGs/blackpink_logo.png";
+import itemHeart from '../../Elements/PNGs/blackkitty_heart.png';
+import itemDrawing from '../../Elements/PNGs/Drawing.png';
 
 const MISSIONS = [
   { id: 'cat', name: "CAT", img: defaultCat, req: "DEFAULT", s: 0, c: 0 },
